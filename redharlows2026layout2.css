@@ -13,7 +13,7 @@ a whole lot of help from my bae bae bingus because im having a burnout*/
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Cinzel+Decorative&family=Josefin+Sans&family=Ma+Shan+Zheng&family=Noto+Serif+TC&family=Zhi+Mang+Xing&display=swap');
 
 :root {
-    --headerimg: url(https://i.pinimg.com/originals/82/6a/53/826a531ab12e32b4a908d516a5ae4ffd.jpg);
+    --headerimg: url(https://github.com/vulturetalonz/redharlowcss/blob/main/headimgvulturetalon.jpg?raw=true);
 		--pagedoll: url('https://i.ibb.co/RkjjgTVk/Untitled79-20260214171734.png')
 	;
     center  !important;
@@ -108,7 +108,7 @@ div.center.b {
 */
 /* LEFT SIDE */
 .col-md-9 {
-  background: url('https://www.pngkey.com/png/full/20-200841_old-paper-png.png');
+  background: url('https://github.com/vulturetalonz/redharlowcss/blob/main/oldpapervulturetalon.png?raw=true');
  
 		   background-size: 100% ; /* Set the width to 100% */
 	background-height: 150%;
@@ -529,14 +529,14 @@ a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:focus img {
 	background: #6f5241 !important;
 	border: none !important;
 	border-radius: 0px !important;
-	color: #000000 !important;
+	color: #edd7cb !important;
 }
 
 .s-chat-message:nth-child(odd) {
 	background: #856351 !important;
 	border: none !important;
 	border-radius: 0px !important;
-	color: #000000 !important;
+	color: #edd7cb !important;
 
 }
 
@@ -548,7 +548,7 @@ a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:focus img {
 }
 
 .s-chat-message_timestamp {
-	color: #e9d9d0 !important;
+	color: rgb(233 217 208 / 60%) !important;
 }
 
 div#chatMessageContainer {
