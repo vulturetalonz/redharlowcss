@@ -216,7 +216,7 @@ div#bs-example-navbar-collapse-1.navbar-collapse.collapsing {
 /* CSS CREDIT */
 
 .breadcrumb::after {
-        content: "CSS by Eden #243408/Katie (template)";
+        content: "CSS by me. Don't ask for it.";
         color: #ffece1;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
@@ -268,7 +268,7 @@ button.button, button.button:hover {
 	 background: var(--headerimg);
 	border: none !important;
 	color: #ffece1;
-	border-radius: 30px !important
+	border-radius: 0px !important
 }
 
 
@@ -486,14 +486,14 @@ a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:focus img {
 	box-shadow: 6px 6px 6px rgb(231 207 148 / 30%) !important;
 	border: none  !important;
 	color: #e9d5b4 !important;
-	border-radius: 20px
+	border-radius: 0px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: #a68470;
 	color: #f3ddd1 !important;
-	border-radius: 10px !important
+	border-radius: 0px !important
 }
 
 /* ENERGY BAR COLOR */
@@ -530,8 +530,6 @@ a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:focus img {
 	border: none !important;
 	border-radius: 0px !important;
 	color: #000000 !important;
-	    visibility: hidden !important;
-    display: none !important; 
 }
 
 .s-chat-message:nth-child(odd) {
@@ -539,8 +537,6 @@ a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:focus img {
 	border: none !important;
 	border-radius: 0px !important;
 	color: #000000 !important;
-	    visibility: hidden !important;
-    display: none !important; 
 
 }
 
@@ -549,30 +545,22 @@ a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:focus img {
 	color: #edd7cb !important;
 	border: none !important;
 	border-radius: 10px 10px 0px 0px !important;
-	    visibility: hidden !important;
-    display: none !important; 
 }
 
 .s-chat-message_timestamp {
 	color: #e9d9d0 !important;
-	    visibility: hidden !important;
-    display: none !important; 
 }
 
 div#chatMessageContainer {
 	border: none !important;
 	border-radius: 0px !important;
-	    visibility: hidden !important;
-    display: none !important; 
 }
 
 button#label_currentChannel {
 	border: none !important;
-	border-radius: 20px !important;
+	border-radius: 0px !important;
 	background: var(--headerimg) !important;
 	color: #dfd3cd !important;
-	    visibility: hidden !important;
-    display: none !important; 
 }
 
 /* COMMENT BOX */
@@ -581,7 +569,7 @@ div#commentBox, div#makeComment, div#commentErrors {
 }
 
 div#commentBox, div#makeComment, div#commentErrors {
-        border-radius: 20px !important;
+        border-radius: 0px !important;
         background: #604536 !important; 
 	color: #f4e1d7 !important;
         border: none !important;
@@ -673,18 +661,18 @@ pointer-events: none;
 	border: none !important;
 	border-collapse: separate;
 	color: #b88f79 !important;
-	border-radius: 40px
+	border-radius: 2px
 }
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
 
 .top, th {
     background: var(--headerimg) !important;
-      border-radius: 40px 40px 0 0;
+      border-radius: 0px;
 }
 .bottom {
       background: var(--headerimg) !important;
-      border-radius: 00px 0px 40px 40px;
+      border-radius: 0px;
 }
 /* ONLINE/OFFLINE BUTTON */
 
@@ -701,7 +689,7 @@ div.member-offline {
 .inner-table .left {
 	background: #856351 !important;
         color: #432624;
-	border-radius: 20px !important
+	border-radius: 0px !important
 }
 
 
@@ -727,7 +715,7 @@ td.right {
 .cave-grid {
 	background: var(--headerimg);
 	border: none !important;
-	border-radius: 30px !important;
+	border-radius: 0px !important;
 }
 
 .mound-grid {
@@ -753,9 +741,9 @@ span.xsmall {
 .feature,
 div.left {
 	background: var(--headerimg);
-	
+	width: 90%;
 	border: none !important;
-	border-radius: 30px !important;
+	border-radius: px !important;
         font-size: 12px;
 }
 
@@ -946,8 +934,10 @@ a:hover {
   width: 100%;
   height: 40px;
   position: center;
+    filter: drop-shadow(rgb(34 20 7 / 80%) 15px 10px 15px);
   display: block;
   padding-top: 10px !important;
+	
 }
 
 
@@ -979,13 +969,13 @@ a:hover {
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #ac8a78
+	background: var(--headerimg);
 }
 
 /* "THUMB" */
 
 ::-webkit-scrollbar-thumb {
-	background: #2d1815;
+	background: rgb(172 138 120 / 60%);
 	border-radius: 20px
 }
 
@@ -1146,16 +1136,7 @@ hr {
     border-top: 2px dashed #b8937f
 }
 
-#about > tbody > tr.right > td:nth-child(1) > a::after {
-	content:url('https://static.wikia.nocookie.net/wolvden/images/f/f1/Skull_badger.png');
-	position:absolute;
-	top:100px;
-	right:690px;
-	rotate:0deg;
-	scale: .6;
-	opacity:0.95;
-	
-}
+
 
 
 /* REMOVE ICONS (message/gift/create trade/wishlist/view trades) */
