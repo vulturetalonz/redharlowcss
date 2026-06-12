@@ -1,11 +1,8 @@
 
 /*
   CSS by Vulturetalon
-Template by katie; heavily modified.
-if you're reading this: GET OUT MY CODE! unless ur squimple
-a whole lot of help from my bae bae bingus because im having a burnout*/
-/*NO COPYING. NO COPYING. BY VT #243408.
-*/
+if you're reading this: GET OUT MY CODE! */
+/*NO COPYING. NO COPYING. BY VT #243408.*/
 
 
 /* FONT (From Google Fonts) */
@@ -31,7 +28,7 @@ body {
 	color: #d5d0c2;
 	}
 }
-
+/*NO COPYING. NO COPYING. BY VT #243408.*/
 /* MOBILE BACKGROUND */
 
 @media screen and (max-width: 600px){
@@ -44,7 +41,7 @@ body {
 	color: #d5d0c2;
 	
 }
-
+/*NO COPYING. NO COPYING. BY VT #243408.*/
 /* IPAD BACKGROUND */
 
 @media screen and (max-width: 1366px) and (orientation: landscape){
@@ -66,13 +63,13 @@ body {
 	background-size: cover;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #d5d0c2;
-	
+	/*NO COPYING. NO COPYING. BY VT #243408.*/
 }
 
 div.center.b {
 	color: #7d4120 !important;
 	display: none;
-}
+}/*NO COPYING. NO COPYING. BY VT #243408.*/
 }
 #txtChatContainer #lblCharacterCounter {
     color: #e3c780;
@@ -81,7 +78,7 @@ div.center.b {
     position: absolute;
     right: 4px;
     top: -20px;
-}
+}/*NO COPYING. NO COPYING. BY VT #243408.*/
 /* MAIN PANEL */
 /*NO REPLICATING. NO STEALING. BY VULTURETALON #243408.
 */
@@ -129,7 +126,8 @@ div.center.b {
     /* Remove the border-color */
     border: none; }
 /* TOPBAR ("Welcome back, ___") */
-
+/*NO REPLICATING. NO STEALING. BY VULTURETALON #243408.
+*/
 .topbar {
  background: var(--headerimg) !important;
 border: none !important;
@@ -159,7 +157,8 @@ div#bs-example-navbar-collapse-1.navbar-collapse.collapse.in {
 
 div#bs-example-navbar-collapse-1.navbar-collapse.collapsing {
 	border: none !important;
-}
+}/*NO REPLICATING. NO STEALING. BY VULTURETALON #243408.
+*/
 
 .navbar-collapse collapsing {
 	border: none !important;
@@ -188,7 +187,8 @@ div#bs-example-navbar-collapse-1.navbar-collapse.collapsing {
         border-radius: 30px;
 
 }
-
+/*NO REPLICATING. NO STEALING. BY VULTURETALON #243408.
+*/
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
@@ -227,7 +227,8 @@ div#bs-example-navbar-collapse-1.navbar-collapse.collapsing {
         .breadcrumb::after {
             right: 20%
         }
-    }
+    }/*NO REPLICATING. NO STEALING. BY VULTURETALON #243408.
+*/
 
     @media only screen and (max-width: 991px) and (min-width: 768px)  {
         .breadcrumb::after {
@@ -258,7 +259,8 @@ button.button, button.button:hover {
 	border-radius: 0px;
         text-shadow: none !important;
 	color: #7d4120 !important
-}
+}/*NO REPLICATING. NO STEALING. BY VULTURETALON #243408.
+*/
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
 
@@ -1019,6 +1021,12 @@ table#player img {
     border: none;
     box-shadow: none;
     margin-left: -50px;
+}
+#lion_image:after {
+content:url("https://github.com/vulturetalonz/redharlowcss/blob/main/redharlowicon2.png?raw=true");
+position:absolute;
+	left: -80px;
+	top: -100px;
 }
 
 /* LIODEN LOGO REPLACER */
